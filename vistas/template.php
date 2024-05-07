@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>LOGO EMPRESA</h1>
+        <h1>LOGO EMPRESA SENATI</h1>
     </header>
     <nav>
         <ul>
