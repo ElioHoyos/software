@@ -11,13 +11,13 @@
     <header>
         <h1>LOGO EMPRESA SENATI</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Registro</a></li>
-            <li><a href="#">Ingreso</a></li>
-            <li><a href="">Usuario</a></li>
-            <li><a href="">Salir</a></li>
-        </ul>
-    </nav>
+    <?php include "layout/navegacion.php"; ?>
+    <section>
+        <!--llamar al controlador que contiene nuestra pagina internas-->
+        <?php
+        $enlace = new PlantillaControlador();
+        $enlace -> enlacesPaginaController();
+        ?>
+    </section>
 </body>
 </html>

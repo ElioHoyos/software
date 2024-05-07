@@ -32,3 +32,16 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+
+section{
+    position: relative;
+    margin: auto;
+    width: 400px;
+}
+
+section h1{
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
